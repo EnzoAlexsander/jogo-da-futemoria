@@ -37,7 +37,7 @@ function createCardFace(face, card, element) {
     if (face === Front) {
         let iconElement = document.createElement('img');
         iconElement.classList.add(Icon);
-        iconElement.src = './assets/images/' + card.icon + '.png';
+        iconElement.src = './assets/images/' + card.icon + '.svg';
         cardElementFace.appendChild(iconElement);
     } else {
         cardElementFace.innerHTML = '&lt/&gt';

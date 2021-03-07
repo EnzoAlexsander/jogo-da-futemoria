@@ -49,6 +49,7 @@ body {
     color: #101c2c;
     background-color: #05c3ff;
     font-size: 30px;
+    cursor: pointer;
 }
 
 #gameOver {
@@ -75,6 +76,7 @@ body {
 }
 
 #tabuleiro {
+    margin-right: auto;
     max-width: 1000px;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(8, 1fr);
@@ -82,5 +84,11 @@ body {
 }
 
 img {
-    width: 70px;
+    width: 55px;
+    height: 70px;
+}
+
+h1 {
+    margin: auto;
+    font-size: 45px;
 }
